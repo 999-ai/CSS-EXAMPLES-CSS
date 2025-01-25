@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My document</title>
+    <style>
+        nav {background-color: #565656;
+            color:white;
+            padding:10px;}
+        nav ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+        }
+
+        nav li{
+            margin-right:10px;
+            display:inline-block;
+        }
+         a{ color:red;
+            text-decoration:none;
+        }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">service</a></li>
+              <li><a href="#communication">Communication</a></li>
+        
+
+
+
+        </nav>
+    </body>
+
+
+
+
+
+
+
+
+</html>
