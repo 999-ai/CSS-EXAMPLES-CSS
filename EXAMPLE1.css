@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" meta name="viewport" content="width=device-width;initial scale=1.0">
+    <title>My document</title>
+    <style>
+        body {
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            background-image: url("merry.jpg");
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        .third_section {
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 50px;
+            margin-bottom: 15px;
+            background-color: aquamarine;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0, 5s ease
+        }
+
+        .third_section:hover {
+            color: red;
+        }
+
+        #content {
+            background-color: yellow;
+            color: black;
+        }
+
+        #content:hover {
+            background-color: brown
+        }
+
+        #content a {
+            color: green;
+            text-decoration: underline;
+        }
+
+        #box1 {
+            background-color: blue;
+            color: azure;
+            height: 50px;
+        }
+
+        #box1 a {
+            color: pink;
+
+            text-decoration: underline;
+        }
+
+        #box1 a:hover {
+            color: yellowgreen;
+
+
+        }
+
+        #box2 {
+            background-color: lightblue;
+            color: black;
+            height: 100px;
+        }
+
+        #box2 a {
+            color: darkblue;
+            text-decoration: none;
+
+        }
+
+        #box2 a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+
+        #box3 {
+            background-color: black;
+            color: white;
+            height: 100px
+        }
+
+        #box3:hover {
+            color: blueviolet;
+        }
+
+
+        #box4 {
+            background-color: rgb(200, 10, 10);
+            color: black;
+            height: 100px
+        }
+
+        p.dotted {
+
+            font-size: 50px;
+            border-width: 5px;
+            border-color: red;
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.groove {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+
+        .border {
+            background-color: blueviolet;
+            border-top-right-radius: 10px;
+            width: 200px;
+            height: 50px;
+            position: relative;
+        }
+
+        .info {
+            width: 100px;
+            border: 10px dashed wheat;
+            padding: 100px;
+            margin: 20px;
+        }
+
+        .info:hover{
+            color:yellow;
+        }
+        .name{background-color: black;
+          color:red;
+          text-align:center;
+          font-size:10px;
+          margin:10px ;
+          padding:5px ;}
+    
+    </style>
+</head>
+
+<body>
+    <p>First Part</p>
+    <p>Second Part</p>
+    <p class="third_section">Third part</p>
+    <div id="content">
+        <p>This is the first link</p>
+        <a href="#home">Home</a>
+    </div>
+    <p>Fourt part</p>
+
+    <div id="box1">fifth part
+        <p>This is the second link</p>
+        <a href="#who are we">who are we</a>
+    </div>
+    <div id="box2">sixth part
+        <p>This is the third link</p>
+        <a href="#Communication">Communication</a>
+    </div>
+
+    <div id="box3">seventh part
+        <p>This is the Fourt link</p>
+        <a href="#Mission">Mission</a>
+    </div>
+
+    <div id="box4">eighth part
+        <p>This is fifth part</p>
+        <a href="#vission">Vission</a>
+    </div>
+
+
+    <p class="dotted">This is a dotted border</p>
+    <p class="dashed">This is a dashed border</p>
+    <p class="solid">This is a solid border</p>
+    <p class="double">This is a double border</p>
+    <p class="groove">This is a groove </p>
+    <p class="groove">This is a ridge </p>
+    <p class="inset">This is a inset </p>
+    <p class="outset">This is a outset </p>
+    <p class="none">This is none</p>
+    <p class="hidden">This is hidden</p>
+    <p class="mix"> mixed border</p>
+
+    <div class="border">
+        <p>this is a almost round radius </p>
+    </div>
+
+
+    <div class="info">
+        <p>Information </p>
+    </div>
+   
+    <div class="name">
+        <label for="name">your name:</label>
+        <input type="text" id="name" name="name">
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
