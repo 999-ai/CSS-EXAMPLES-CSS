@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font Awesome Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <i class="material-icons">cloud</i>
+    <i class="material-icons">favorite</i>
+    <i class="material-icons">attachment</i>
+    <i class="material-icons">computer</i>
+    <i class="material-icons">traffic</i>
+
+    <a style="display:block" href="https://www.youtube.com/" target="_blank">youtube</a>
+    <a href="https://www.youtube.com/" target="_parent">youtube</a>
+    <a href="https://www.youtube.com/" target="_self">youtube</a>
+    <a href="https://www.youtube.com/" target="_top">youtube</a>
+
+    <ol>
+        <li><i class="material-icons">cloud</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, placeat? Molestiae quasi magnam omnis
+                facere,
+                esse similique </p>cloud
+        </li>
+
+        <li><i class="material-icons">favorite</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>favorite
+        </li>
+
+        <li><i class="material-icons">attachment</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>attachment
+        </li>
+
+        <li><i class="material-icons">computer</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>computer
+        </li>
+
+        <li><i class="material-icons">traffic</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>traffic
+        </li>
+    </ol>
+
+    <ul>
+        <li><i class="material-icons">cloud</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, placeat? Molestiae quasi magnam omnis
+                facere,
+                esse similique </p>cloud
+        </li>
+
+        <li><i class="material-icons">favorite</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>favorite
+        </li>
+
+        <li><i class="material-icons">attachment</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>attachment
+        </li>
+
+        <li><i class="material-icons">computer</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>computer
+        </li>
+
+        <li><i class="material-icons">traffic</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos impedit </p>traffic
+        </li>
+    </ul>
+
+    <h2>Add a table into website</h2>
+    <table>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Foem</td>
+        </tr>
+    </table>
+    <div style="overflow-x:auto;display:block">
+        <table>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+                <th>Point</th>
+            </tr>
+            <tr>
+                <td>Adam</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>50</td>
+                <td>80</td>
+                <td>80</td>
+                <td>90</td>
+                <td>95</td>
+                <td>93</td>
+                <td>93</td>
+
+            </tr>
+            <tr>
+                <th>Nicky </th>
+                <th>Last </th>
+                <th>80</th>
+                <th>70</th>
+                <th>70</th>
+                <th>70</th>
+                <th>70</th>
+                <th>70</th>
+                <th>70</th>
+                <th>70</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
