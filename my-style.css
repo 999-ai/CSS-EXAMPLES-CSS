@@ -1,0 +1,120 @@
+body {
+    font-family: "Edu AU VIC WA NT Guides", sans-serif;
+    margin: 10px;
+    background-color: #f0f0f0;
+    color: blue;
+}
+
+h1, h2 {
+    font-family: 'Edu AU VIC WA NT Guides', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+i {
+    margin-left: 50px;
+}
+
+.dotted {
+    border: 2px dotted chocolate;
+}
+
+.dashed {
+    border: 3px dashed brown;
+    padding: 10px;
+}
+
+.solid {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    color: red;
+}
+
+.double {
+    border: 2px double red;
+    padding: 10px;
+}
+
+.groove {
+    border: 2px groove #333;
+    padding: 10px;
+}
+
+.ridge {
+    border: 2px ridge #008b00;
+    padding: 10px;
+}
+
+.inset {
+    border: 2px inset #009;
+    padding: 10px;
+}
+
+.outset {
+    border: 2px outset #333;
+    padding: 10px;
+}
+
+.class {
+    font-style: italic;
+    color: hwb(332 9% 2%);
+    margin-bottom: 20px;
+}
+
+.class .img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.fas.fa-heart {
+    font-size: 48px;
+    margin-right: 15px;
+}
+
+.fas.fa-cloud {
+    font-size: 48px;
+    margin-right: 15px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.country {
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+}
+
+.city {
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
