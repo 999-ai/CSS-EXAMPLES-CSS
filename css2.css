@@ -1,0 +1,43 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif;
+     margin:10px;
+     background-color:black;
+     color:blueviolet}
+i {font-family:Georgia, 'Times New Roman', Times, serif;
+  color:red}
+
+a{text-decoration:underline;font-family:Georgia, 'Times New Roman', Times, serif ;color: rgb(205, 50, 89)}
+
+p a {font-family:'Courier New', Courier, monospace;
+     color:aqua}
+p a:hover {
+          text-decoration: none;
+          color:yellow;
+      }
+ol, ul {
+          list-style-type: none;
+          padding-left: 0;
+      }
+ol li, ul li { background-color:burlywood;
+     padding: 10px;
+     margin: 10px ;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgb(205, 50, 89);
+     display: flex;
+     align-items: center;
+ }
+
+table th,table td{
+     border:2px solid white;
+     padding:10px;
+     text-align:center;
+
+}  
+
+table tr:hover {
+     background-color: red;
+ }
+div[style="overflow-x:auto;display:block"]
+  {
+     overflow-x: auto;
+     margin-top: 20px;
+ }
